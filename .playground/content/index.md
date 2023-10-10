@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas dolor non
 
 ```ts [my-file.ts]
 export default defineEventHandler(() => {
-  return "UnJS is awesome!";
+  return 'UnJS is awesome!'
 })
 ```
 

@@ -2,6 +2,7 @@
   "name": "@barbapapazes/solo-sphere",
   "type": "module",
   "version": "0.0.0",
+  "packageManager": "pnpm@8.7.1",
   "description": "A theme that creates a world of its own.",
   "author": "Estéban Soubiran <e.soubiran25@gmail.com> (https://github.com/barbapapazes/)",
   "license": "MIT",
@@ -28,7 +29,8 @@
     "preview": "nuxt preview .playground",
     "postinstall": "nuxt prepare .playground",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "release": "bumpp"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.24",
@@ -41,6 +43,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0",
+    "bumpp": "^9.2.0",
     "eslint": "^8.51.0",
     "nuxt": "^3.7.4",
     "typescript": "^5.2.2"

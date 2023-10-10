@@ -27,8 +27,8 @@ jobs:
       - name: Lint files
         run: pnpm run lint
 
-  build:
-    name: Build
+  generate:
+    name: Generate
     runs-on: ubuntu-latest
 
     steps:
@@ -43,4 +43,4 @@ jobs:
         run: pnpm install
 
       - name: Generate files
-        run: pnpm run build
+        run: pnpm run generate

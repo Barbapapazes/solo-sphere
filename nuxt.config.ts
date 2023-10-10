@@ -15,6 +15,13 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  nitro: {
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true,
+    },
+  },
+
   content: {
     documentDriven: true,
     highlight: {

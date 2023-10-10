@@ -1,0 +1,48 @@
+{
+  "name": "@barbapapazes/solo-sphere",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A theme that creates a world of its own.",
+  "author": "Estéban Soubiran <e.soubiran25@gmail.com> (https://github.com/barbapapazes/)",
+  "license": "MIT",
+  "homepage": "https://github.com/barbapapazes/solo-sphere",
+  "keywords": [
+    "nuxt",
+    "theme",
+    "vue"
+  ],
+  "main": "./nuxt.config.ts",
+  "files": [
+    "app.config.ts",
+    "app.vue",
+    "assets",
+    "components",
+    "layouts",
+    "nuxt.config.ts",
+    "tailwind.config.js"
+  ],
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "postinstall": "nuxt prepare .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.24",
+    "@egoist/tailwindcss-icons": "^1.3.3",
+    "@iconify-json/heroicons": "^1.1.12",
+    "@nuxt/content": "^2.8.5",
+    "@nuxt/devtools": "1.0.0-beta.0",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "@vueuse/core": "^10.5.0",
+    "@vueuse/nuxt": "^10.5.0",
+    "eslint": "^8.51.0",
+    "nuxt": "^3.7.4",
+    "typescript": "^5.2.2"
+  }
+}

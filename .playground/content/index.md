@@ -37,9 +37,9 @@ _Voilà!_ You're good to go!
 
 ## Usage
 
-Solo Sphere is meant to be used with the `content` directory from [Nuxt Content](https://content.nuxt.com).
+Solo Sphere is meant to be used with the `content` directory from [Nuxt Content](https://content.nuxtcom).
 
-To get started, you've just to create a `content` directory at the root of your project and add a `index.md` file inside.
+To get started, you just have to create a `content` directory at the root of your project and add an `index.md` file inside.
 
 ```md [content/index.md]
 ---
@@ -55,7 +55,7 @@ Do not forget that you can overwrite any component or layout from Solo Sphere by
 
 ## Layouts
 
-Solo Sphere comes with a layout called `prose`. It renders the content of your markdown files in the way you're a reading this page.
+Solo Sphere comes with a layout called `prose`. It renders the content of your markdown files in the way you're reading this page.
 
 ```md [content/index.md]
 ---

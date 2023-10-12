@@ -1,4 +1,5 @@
 ---
+title: Solo Sphere
 layout: prose
 ---
 

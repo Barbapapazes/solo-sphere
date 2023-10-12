@@ -3,22 +3,69 @@ title: Solo Sphere
 layout: prose
 ---
 
-# Lorem ipsum dolor sit amet
+# Solo Sphere
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas dolor non vehicula tristique. Morbi ligula nibh, efficitur a posuere a, faucibus ac neque. Donec eros est, aliquam id luctus ut, lobortis eu neque. Vivamus cursus efficitur ornare. Aenean lobortis vel orci ac scelerisque. Aenean placerat elit sit amet nisi interdum, vitae placerat [sapien accumsan](https://unjs.io). Phasellus vel magna pellentesque, vehicula sapien et, porttitor mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed `ultrices lobortis` ipsum, nec vestibulum nunc auctor id. Nullam mollis non urna quis eleifend. In at lectus turpis.
+A beautiful theme for [Nuxt Content](https://content.nuxtjs.org) ready for [Nuxt Studio](https://nuxt.studio).
 
-```ts [my-file.ts]
-export default defineEventHandler(() => {
-  return 'UnJS is awesome!'
+_Currently, this theme is meant to be used with a single page._
+
+## Installation
+
+You have two options to install this [Nuxt Layer](https://nuxt.com/docs/getting-started/layers).
+
+### Creating a new project
+
+<!-- add template -->
+
+### Adding to an existing project
+
+First, you need to install the package:
+
+```bash
+pnpm install -D @barbapapazes/solo-sphere
+```
+
+Then, you will need to extend your project:
+
+```ts [nuxt.config.ts]
+export default defineNuxtConfig({
+  extends: '@barbapapazes/solo-sphere'
 })
 ```
 
-Integer tincidunt lobortis ex, eu faucibus risus auctor sit amet. Aliquam ac dui orci. Integer varius, sapien ac tincidunt feugiat, quam mi egestas lorem, et luctus quam enim at erat. Vivamus accumsan quam est, in luctus est semper sit amet. Maecenas velit lectus, congue sed placerat commodo, accumsan ut tellus. Pellentesque nec elementum urna. Curabitur cursus tempor eros, nec lobortis eros. In a condimentum ex. Quisque commodo iaculis nunc ut laoreet. Ut fringilla mattis orci, eget scelerisque libero. Nam venenatis augue eget arcu ultrices eleifend.
+_Voilà!_ You're good to go!
 
-## Lorem ipsum dolor sit amet
+## Usage
 
-Phasellus accumsan velit in odio lobortis, quis lacinia lectus rhoncus. Praesent rutrum elementum ornare. Praesent elementum ex in vestibulum commodo. Praesent mollis lectus eget lectus aliquet lobortis. Sed purus lacus, suscipit vitae neque in, tristique pellentesque justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis dictum venenatis. Donec est magna, ornare vitae sollicitudin sed, feugiat ac metus. Ut viverra elementum porta. Praesent luctus congue est. Sed blandit eleifend egestas. Pellentesque blandit orci ac nulla commodo, id pharetra dui rhoncus.
+Solo Sphere is meant to be used with the `content` directory from [Nuxt Content](https://content.nuxt.com).
 
-Nam ac sagittis enim, auctor pellentesque mauris. Nam elementum dapibus ligula eget viverra. Curabitur luctus egestas velit, vitae malesuada sem tempor eget. Vivamus sed magna pharetra, gravida felis non, semper urna. Proin consectetur lacus vel tortor ornare condimentum. Aliquam feugiat posuere nunc non ultricies. Vivamus aliquam risus vel ipsum euismod lacinia. Curabitur pharetra laoreet neque vitae lobortis. Maecenas auctor gravida tempus.
+To get started, you've just to create a `content` directory at the root of your project and add a `index.md` file inside.
 
-Aliquam viverra, est eu mollis finibus, leo nunc euismod est, ac suscipit libero felis sed risus. Mauris finibus ultricies faucibus. Aenean porttitor venenatis turpis ut sollicitudin. Mauris suscipit feugiat justo, vel placerat nibh ullamcorper vitae. Donec at iaculis augue, eu molestie sapien. Suspendisse aliquet, augue eu blandit pulvinar, tellus augue mollis nibh, vitae molestie neque risus sed arcu. Nunc sed fringilla odio. Proin congue, turpis quis convallis scelerisque, ante diam volutpat enim, sit amet egestas orci eros eget mi. Cras iaculis leo nisi, a rutrum lectus ornare non. Curabitur blandit mattis est non hendrerit. Ut eleifend nisi eu egestas sollicitudin.
+```md [content/index.md]
+---
+title: Hello World
+---
+
+Lorem...
+```
+
+::alert{type="info"}
+Do not forget that you can overwrite any component or layout from Solo Sphere by creating a file with the same name in your project.
+::
+
+## Layouts
+
+Solo Sphere comes with a layout called `prose`. It renders the content of your markdown files in the way you're a reading this page.
+
+```md [content/index.md]
+---
+title: Hello World
+layout: prose
+---
+
+Lorem...
+```
+
+## Components
+
+_No components yet..._

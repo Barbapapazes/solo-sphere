@@ -14,13 +14,13 @@
   ],
   "main": "./nuxt.config.ts",
   "files": [
+    ".playground",
     "app.config.ts",
     "app.vue",
     "assets",
     "components",
     "layouts",
     "nuxt.config.ts",
-    "playground",
     "tailwind.config.js"
   ],
   "scripts": {

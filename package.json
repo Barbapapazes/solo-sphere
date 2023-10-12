@@ -20,6 +20,7 @@
     "components",
     "layouts",
     "nuxt.config.ts",
+    "playground",
     "tailwind.config.js"
   ],
   "scripts": {

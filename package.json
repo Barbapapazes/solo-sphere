@@ -14,7 +14,6 @@
   ],
   "main": "./nuxt.config.ts",
   "files": [
-    ".playground",
     "app.config.ts",
     "app.vue",
     "assets",
@@ -28,7 +27,6 @@
     "build": "nuxt build .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
-    "postinstall": "nuxt prepare .playground",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "release": "bumpp"
@@ -41,8 +39,7 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.10",
     "@vueuse/core": "^10.5.0",
-    "@vueuse/nuxt": "^10.5.0",
-    "nuxt": "^3.7.4"
+    "@vueuse/nuxt": "^10.5.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.24",
@@ -50,6 +47,7 @@
     "@nuxthq/studio": "^1.0.0",
     "bumpp": "^9.2.0",
     "eslint": "^8.51.0",
+    "nuxt": "^3.7.4",
     "typescript": "^5.2.2"
   }
 }

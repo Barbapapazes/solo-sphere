@@ -12,6 +12,8 @@ module.exports = {
               'text-decoration-line': 'none',
             },
             'pre': {
+              'border-radius': 0,
+              "background-color": "transparent",
               margin: 0,
               padding: 0,
             },

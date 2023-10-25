@@ -13,9 +13,9 @@ module.exports = {
             },
             'pre': {
               'border-radius': 0,
-              "background-color": "transparent",
-              margin: 0,
-              padding: 0,
+              'background-color': 'transparent',
+              'margin': 0,
+              'padding': 0,
             },
             'p a': {
               'color': theme('colors.sky.500'),

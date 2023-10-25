@@ -12,8 +12,10 @@ module.exports = {
               'text-decoration-line': 'none',
             },
             'pre': {
-              margin: 0,
-              padding: 0,
+              'border-radius': 0,
+              'background-color': 'transparent',
+              'margin': 0,
+              'padding': 0,
             },
             'p a': {
               'color': theme('colors.sky.500'),

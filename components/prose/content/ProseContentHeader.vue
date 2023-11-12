@@ -4,7 +4,7 @@ import type { Author } from '~/types/authors'
 defineProps<{
   title?: string
   date?: string
-  authors: Author[]
+  authors?: Author[]
 }>()
 </script>
 

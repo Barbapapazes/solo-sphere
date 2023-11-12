@@ -2,6 +2,9 @@ const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    './app.config.ts',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
@@ -47,7 +50,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     iconsPlugin({
-      collections: getIconCollections(['heroicons']),
+      collections: getIconCollections(['heroicons', 'simple-icons']),
     }),
   ],
 }

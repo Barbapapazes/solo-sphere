@@ -12,7 +12,7 @@ defineProps<{
 </script>
 
 <template>
-  <article class="grid grid-cols-1 xl:grid-cols-[1fr_auto_1fr] gap-6">
+  <article class="grid grid-cols-1 xl:grid-cols-[1fr_65ch_1fr] gap-6">
     <div class="xl:col-start-2 max-w-prose mx-auto w-full border-b border-b-zinc-200 dark:border-b-zinc-800 pb-8">
       <ProseContentHeader
         v-if="title"

@@ -3,8 +3,6 @@ title: Solo Sphere
 layout: prose
 ---
 
-# Solo Sphere
-
 A beautiful theme for [Nuxt Content](https://content.nuxtjs.org) ready for [Nuxt Studio](https://nuxt.studio).
 
 _Currently, this theme is meant to be used with a single page._

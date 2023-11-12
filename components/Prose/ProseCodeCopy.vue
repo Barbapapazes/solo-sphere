@@ -20,8 +20,8 @@ const { copy, copied, isSupported } = useClipboard()
         leave-from-class="opacity-100"
         leave-to-class="opacity-0"
       >
-        <div v-if="copied" class="i-heroicons-check-solid group-hover/copy:text-zinc-400 dark:group-hover/copy:text-zinc-300 transition ease-in" />
-        <div v-else class="i-heroicons-clipboard-document group-hover/copy:text-zinc-400 dark:group-hover/copy:text-zinc-300 transition ease-in" />
+        <div v-if="copied" class="i-heroicons-check-solid" />
+        <div v-else class="i-heroicons-clipboard-document" />
       </Transition>
     </button>
   </ClientOnly>

@@ -18,6 +18,7 @@
     "app.vue",
     "assets",
     "components",
+    "composables",
     "layouts",
     "nuxt.config.ts",
     "tailwind.config.js"

@@ -14,7 +14,7 @@ const github = useAppConfig().portfolio.github
 const communityLinks = [
   {
     name: 'Aimer sur GitHub',
-    to: 'https://github.com/barbapapazes/esteban-soubiran.site',
+    to: `https://github.com/${github.owner}`,
     class: 'i-heroicons-star-20-solid',
   },
   {

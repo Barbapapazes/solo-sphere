@@ -33,13 +33,10 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@egoist/tailwindcss-icons": "^1.4.0",
     "@iconify-json/heroicons": "^1.1.13",
     "@iconify-json/simple-icons": "^1.1.77",
     "@nuxt/content": "^2.8.5",
-    "@nuxtjs/color-mode": "^3.3.0",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@tailwindcss/typography": "^0.5.10",
+    "@nuxt/ui": "^2.11.0",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0"
   },

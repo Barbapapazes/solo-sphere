@@ -6,9 +6,8 @@ const currentDir = dirname(fileURLToPath(import.meta.url))
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss',
     '@nuxt/content',
-    '@nuxtjs/color-mode',
+    '@nuxt/ui',
   ],
 
   css: [join(currentDir, './assets/css/app.css')],
@@ -23,13 +22,17 @@ export default defineNuxtConfig({
   },
 
   content: {
-    documentDriven: true,
+    documentDriven: false,
     highlight: {
       theme: {
         default: 'github-light',
         dark: 'github-dark',
       },
     },
+  },
+
+  ui: {
+    icons: ['heroicons', 'simple-icons'],
   },
 
   colorMode: {

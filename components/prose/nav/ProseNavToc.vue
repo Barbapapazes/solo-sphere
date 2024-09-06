@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { Toc } from '@nuxt/content/dist/runtime/types'
 import { NuxtLink } from '#components'
+import type { Toc } from '@nuxt/content/dist/runtime/types'
 
 defineProps<{
   toc: Toc

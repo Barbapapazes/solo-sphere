@@ -1,7 +1,7 @@
 <script lang="ts" setup>
+import { NuxtLink } from '#components'
 import type { Toc } from '@nuxt/content/dist/runtime/types'
 import type { Resource } from '~/types/resources'
-import { NuxtLink } from '#components'
 
 const props = defineProps<{
   filename: string
